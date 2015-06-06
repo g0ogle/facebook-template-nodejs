@@ -31,7 +31,7 @@ Deploy to Heroku directly
 
 If you prefer to deploy yourself, push this code to a new Heroku app on the Cedar stack, then copy the App ID and Secret into your config vars:
 
-    heroku create --stack cedar
+    heroku create --stack cedar-14
     git push heroku master
     heroku config:add FACEBOOK_APP_ID=12345 FACEBOOK_SECRET=abcde
 
