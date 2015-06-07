@@ -17,6 +17,16 @@ Copy the App ID and Secret from the Facebook app settings page into your `.env`:
     echo FACEBOOK_APP_ID=12345 >> .env
     echo FACEBOOK_SECRET=abcde >> .env
 
+3 steps to publicize your app, or you'll get errors while visiting:
+
+1. Go to https://developers.facebook.com/apps.
+
+2. click "Settings" and fill in "Contact Email" => "Save Changes".
+
+3. click "Status & Review" and fill in "Contact Email" => "Save Changes".
+
+Check "Do you want to make this app and all its live features available to the general public?" to YES.
+
 Launch the app with [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html):
 
     foreman start
